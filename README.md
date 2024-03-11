@@ -20,3 +20,4 @@ We have complex numbers: which are used for complex mathematical calculations.
 We have booleans: which have two values, true/false.
 
 Working with strings, we can use the + sign to combine two strings. We call that concatenation.
+Cannot be used to add string and numbers.
