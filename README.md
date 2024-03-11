@@ -45,10 +45,11 @@ A dictionary is a collection of key-value pairs, declared using a curly brace.
 Instructions that perform operations on variables and values. Used to manipulate and perform actions on data.
 
 - (+) - addition: used to add two values.
-- (*) - multiply: used to multiple two values
+- (**) - multiply: used to multiple two values
 - ^ - exponent: used as an exponent.
 - / - divide: used as a division operator, returns a floating-point value even if result is a whole number..
 - % - modulus: provides remainder after division
+- // - floor division
 
 Strings can also be manipulated, to concatenate we use the plus sign +.
 To multiply a word certain number of times we used the multiplication sign.
@@ -57,6 +58,35 @@ Comparison operators, logical operators, identity operator and membership operat
 
 Comparison Operator: evaluate two values and produces a boolean result, either True/False. examples include double equal sign, less-than, less-than or equal-to, greater-than, greater-than or equal-to.
 
-Logical operators: AND, OR & NOT operate on boolean values. The AND operator returns true if both operands are true, while the OR operator returns a true if either of the operands is true. The NOT operator negates the Boolean value it operates on.
+Logical operators: AND, OR & NOT 
 
-Membership operators: IN & NOT IN are used to check whether a value is present in a sequence or not. checks if a certain number or string exists in a given list or string.
+operate on boolean values. The AND operator returns true if both operands are true, while the OR operator returns a true if either of the operands is true. The NOT operator negates the Boolean value it operates on.
+
+Identity Operators:IS & IS NOT
+
+used to compare two objects if they are they same objects in terms of memory location.
+
+
+Membership operators: IN & NOT IN 
+
+are used to check whether a value is present in a sequence or not. checks if a certain number or string exists in a given list or string.
+
+Order of Precedence:
+()- parenthesis
+** - exponentiation
+* - multiplication
+/ - division
+% - modulus
++ - addition
+- - subtraction
+
+# CONTROL FLOW
+The if statement is one of three main types of control flow in programming and it allows you to execute a block of code if a certain condition is met.
+
+Indentation is important because it determines the structure of the program. We also make use of loops in our programs. For Loop, While Loop, Do-While Loops.
+We can use a for loop to iterate over a list or any iterable object.
+A while loop keeps looking until a certain condition is false.
+
+# FUNCTIONS
+
+Functions can be defined by 'def' keyword, followed by the function name and arguments in parentheses, then colon ':'. inside the body of the function should be the code that defines what the function should do. along with a return keyword  to specify the output returned by the function. There is no curly brace that signifies the beginning and end of the function.
