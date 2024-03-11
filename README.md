@@ -43,7 +43,8 @@ A dictionary is a collection of key-value pairs, declared using a curly brace.
 
 # OPERATORS
 Instructions that perform operations on variables and values. Used to manipulate and perform actions on data.
-+ - addition: used to add two values.
-* - multiply: used to multiple two values
-^ - exponent: used as an exponent.
-/ - divide: used as a division operator, returns a floating-point value even if result is a whole number..
+
+- + - addition: used to add two values.
+- * - multiply: used to multiple two values
+- ^ - exponent: used as an exponent.
+- / - divide: used as a division operator, returns a floating-point value even if result is a whole number..
