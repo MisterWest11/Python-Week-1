@@ -48,3 +48,15 @@ Instructions that perform operations on variables and values. Used to manipulate
 - (*) - multiply: used to multiple two values
 - ^ - exponent: used as an exponent.
 - / - divide: used as a division operator, returns a floating-point value even if result is a whole number..
+- % - modulus: provides remainder after division
+
+Strings can also be manipulated, to concatenate we use the plus sign +.
+To multiply a word certain number of times we used the multiplication sign.
+
+Comparison operators, logical operators, identity operator and membership operator are another set of operators.
+
+Comparison Operator: evaluate two values and produces a boolean result, either True/False. examples include double equal sign, less-than, less-than or equal-to, greater-than, greater-than or equal-to.
+
+Logical operators: AND, OR & NOT operate on boolean values. The AND operator returns true if both operands are true, while the OR operator returns a true if either of the operands is true. The NOT operator negates the Boolean value it operates on.
+
+Membership operators: IN & NOT IN are used to check whether a value is present in a sequence or not. checks if a certain number or string exists in a given list or string.
