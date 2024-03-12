@@ -124,3 +124,24 @@ A while loop keeps looking until a certain condition is false.
 # FUNCTIONS
 
 Functions can be defined by 'def' keyword, followed by the function name and arguments in parentheses, then colon ':'. inside the body of the function should be the code that defines what the function should do. along with a return keyword  to specify the output returned by the function. There is no curly brace that signifies the beginning and end of the function.
+
+# BASIC DATA TYPES
+
+# INTS & FLOATS
+
+Converting from one data type to another is known as Casting.
+
+There are 3 numeric types in Python:
+* int - is a whole number, negative or positive.
+* float - positive or negative numbers containing decimals
+* complex - written with a "j" as the imaginary part.
+
+converting from one type to another with int(), float(), complex() methods.
+
+Python does not have a random() function to make a random number. We use a built-in module called 'random'.
+
+Booleans
+
+in Booleans, -1 is true, 0 is false. Anything excpet 0 is true.
+boolean true is true.
+anything other than an empty string is also true.
