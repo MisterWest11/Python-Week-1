@@ -24,11 +24,21 @@ Cannot be used to add string and numbers.
 
 In Python we can also assign values to multiple variables in one line. x, y, z = "cat", "dog", "me".
 
+Naming a variable:
+
+* Cannot start with a number.
+* Must start with an underscore or letter.
+* Can contain alpha numeric characters and underscores (a-z,A-Z,0-9 & _).
+* Variables are case-sensitive... Car and car are two different variables.
+
+When declaring a variable in Python, you do not implicitly define its data type.
+
+
 # Output variables
 Python uses the print() funtion to output. Outputting multiple variables is separated by a comma inside the parenthesis.
 
 # Global variables
-Created outside a function.
+Variables that are created outside of a function. Can be used inside and outside a function.
 
 now creating a variable inside a function, we use the global keyword.
 
@@ -40,16 +50,40 @@ Tuples are similar to lists, except they cannot be modified once declared.
 Useful for storing large amounts of data more efficiently in memory.
 A dictionary is a collection of key-value pairs, declared using a curly brace.
 
+We have:
+Lists - a collection which is ordered and changeable and allows duplicate members.
+
+Tuples - a collection that is ordered and unchangeable and allows duplicate members.
+
+Set - a collection which is unordered, unchangeable and unindexed and does not allow duplicate members.
+
+Dictionary - a collection which is ordered and changeable but no duplicate members.
+
+# LISTS
+Used to store multiple items in a single variable.
+Created using square brackets [].
+
+List items are ordered, changeable, and allow duplicate values.
+
+They are indexed, first item has index number of [0]
+
+second item has index number of [1]
+
+To determine how many items in the list, we use the len() function.
+
+A list can have different data types. and can be of any data type
+
+different data type - list1 = ["abc", 123, True, 3, "male"]
 
 # OPERATORS
 Instructions that perform operations on variables and values. Used to manipulate and perform actions on data.
 
-- (+) - addition: used to add two values.
-- (**) - multiply: used to multiple two values
-- ^ - exponent: used as an exponent.
-- / - divide: used as a division operator, returns a floating-point value even if result is a whole number..
-- % - modulus: provides remainder after division
-- // - floor division
+* (+) - addition: used to add two values.
+* (**) - multiply: used to multiple two values
+* ^ - exponent: used as an exponent.
+* / - divide: used as a division operator, returns a floating-point value even if result is a whole number..
+* % - modulus: provides remainder after division
+* // - floor division
 
 Strings can also be manipulated, to concatenate we use the plus sign +.
 To multiply a word certain number of times we used the multiplication sign.
