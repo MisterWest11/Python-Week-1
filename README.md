@@ -84,9 +84,76 @@ Order of Precedence:
 # CONTROL FLOW
 The if statement is one of three main types of control flow in programming and it allows you to execute a block of code if a certain condition is met.
 
+**IF STATEMENT**
+
+general syntax: *if expression: statement*
+
+the expression  contains logic that return a boolean(true/false). An *if statement* is executed if the condition is true.
+
+**IF, ELSE & ELIF**
+
+the else block in this statement executes when the *if* block is false.
+
+elif provides a new condition to be checked before the else is executed.
+
+e.g
+
+bob_age = 32
+
+sarah_age = 32
+
+if bob_age > sarah_age:
+
+print('Bob is older than Sarah')
+
+elif bob_age < sarah_age:
+
+print('Bob is younger than Sarah')
+
+elif bob_age == sarah_age:
+
+print('Bob and Sarah have the same age')
+
+else:
+
+print('This one is never executed')
+
+
 Indentation is important because it determines the structure of the program. We also make use of loops in our programs. For Loop, While Loop, Do-While Loops.
 We can use a for loop to iterate over a list or any iterable object.
 A while loop keeps looking until a certain condition is false.
+
+# While Loop
+
+general syntax: *while condition: statement*
+A loop that executes under the condition being true. to exit, *break* keyword exits the loop.
+
+number = 1
+
+while number <= 5:
+
+print(number, 'squared is', number**2)
+
+number = number + 1
+
+if number == 4:
+
+break
+
+
+*continue* keyword is used to skip an item in a while loop.
+
+number = 0
+
+while number < 5:
+
+number = number + 1
+
+if number == 4:
+
+continue
+
+print(number, 'squared is', number**2)
 
 # FUNCTIONS
 
