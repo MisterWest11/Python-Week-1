@@ -293,3 +293,30 @@ they are ordered and unchangeable.
 
 * .count()
 
+# Dictionary{key:value}
+
+
+they are a changeable, unordered unique key:value pairs.
+
+e.g
+
+people = {"West": 22,
+          "Jack": 17,
+          "Missy": 14,
+          "Mom": 39,
+          "dad": 48}
+
+**methods used in dictionaries{:}**
+
+
+* copy()
+
+* get()
+  
+* items()
+  
+* keys()
+  
+* pop() - to delete an item
+  
+* values()
