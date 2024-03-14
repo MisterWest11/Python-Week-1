@@ -59,16 +59,16 @@ Comparison operators, logical operators, identity operator and membership operat
 
 Comparison Operator: evaluate two values and produces a boolean result, either True/False. examples include double equal sign, less-than, less-than or equal-to, greater-than, greater-than or equal-to.
 
-Logical operators: AND, OR & NOT 
+**Logical operators: AND, OR & NOT**
 
 operate on boolean values. The AND operator returns true if both operands are true, while the OR operator returns a true if either of the operands is true. The NOT operator negates the Boolean value it operates on.
 
-Identity Operators:IS & IS NOT
+**Identity Operators:IS & IS NOT**
 
 used to compare two objects if they are they same objects in terms of memory location.
 
 
-Membership operators: IN & NOT IN 
+**Membership operators: IN & NOT IN**
 
 are used to check whether a value is present in a sequence or not. checks if a certain number or string exists in a given list or string.
 
@@ -217,69 +217,79 @@ We also have methods in the string class, namely:
 Data structures allow for the storage of a list of values in a single variable. which can contain any data type, including a list within a list.
 
 Tuples are similar to lists, except they cannot be modified once declared.
+
 Useful for storing large amounts of data more efficiently in memory.
+
 A dictionary is a collection of key-value pairs, declared using a curly brace.
+
+We make use of *membership operators*: in, not in.
 
 We have:
 
-Lists - a collection which is ordered and changeable and allows duplicate members.
+Lists[] - a collection which is ordered and changeable and allows duplicate members.
 
-Tuples - a collection that is ordered and unchangeable and allows duplicate members.
+Tuples() - a collection that is ordered and unchangeable and allows duplicate members.
 
-Set - a collection which is unordered, unchangeable and unindexed and does not allow duplicate members.
+Set{} - a collection which is unordered, unchangeable and unindexed and does not allow duplicate members.
 
-Dictionary - a collection which is ordered and changeable but no duplicate members.
+Dictionary{key:value} - a collection which is ordered and changeable but no duplicate members.
 
-# LISTS
+# LISTS[]
 Used to store multiple items in a single variable.
 Created using square brackets [].
 
-**LIST ITEMS**
-List items are ordered, changeable, and allow duplicate values.
-
-They are indexed, first item has index number of [0]
-
-second item has index number of [1]
-
-**ORDERED**
-
-when a list is ordered, it means that the items  have a defined order, and that order does not change.
-
-If you add new items in the list, they will be placed at the end of the list.
-
-
-**List Length**
-
-To determine how many items in the list, we use the len() function.
-
 e.g
-thisList = ["apples", "banana", "cherry"]
 
-print(len(thisList))
+fruits = ["apple", "banana", "cherry", "grapes"]
 
-**List Item - Data Types**
+to display elements of the list[], we use the print() function.  print(fruits)
 
-A list can have different data types. and can be of any data type
+to iterate through elements of the list[], we use a for loop.
 
-different data type - list1 = ["abc", 123, True, 3, "male"]
+for fruit in fruits:
+  print(fruit)
 
-**type()**
+**Methods used in a list[]**
 
-in python's perspective, lists are defined as objects with the data type 'list'.
+* .append() - to add an element at the end of the list[].
 
-myList = ["apple", "banana", "cherry"]
+* .romove() - used to remove an element in the list[].
 
-print(type(myList))
+* .insert() - to insert an element in the list[] at a given index.
 
-**List() Constructor**
+* .sort() - to sort elements in the list[] in alphabetical order.
 
-use the list() constructor when creating a new list.
+* .reverse() - reverses the elements in the list[] in the order the list[] was defined in.
 
-thisList = list(("apple", "banana", "cherry"))
+* .clear() - clears all the elements of the list[].
 
-print(thisList)
+* .index() - to find an index of a specific element.
+
+* .count() - to count duplicates values in the list[].
 
 
-Slicing can be used to get/ extract a range of values from a list or string, you can also add a third value to control the step size.
-Range function can be used to generate a longer list which can also be sliced.
-negative values can be used to step backwards through the list.
+# Sets{}
+
+are unordered and immutable, does not allow duplicate values.
+
+make use of in/ not in operator to find elements that could be in the list.
+
+**Methods used in Sets{}**
+
+* .add() - to add elements in the Set{}.
+
+* .remove() - to remove elements in the Set{}
+
+* .pop() - removes an element at random.
+
+
+# Tuples()
+
+they are ordered and unchangeable.
+
+**methods used in tuples()**
+
+* .index()
+
+* .count()
+
