@@ -170,11 +170,24 @@ uses *continue* to stop the current iteration loop and continue with the next.
 simplest way to iterate through a list of numbers. also makes use of *startIndex* and *stopIndex*.
 
 **Else Block**
+
 executes when items in the list are over.
 
 # FUNCTIONS
 
 Functions can be defined by 'def' keyword, followed by the function name and arguments in parentheses, then colon ':'. inside the body of the function should be the code that defines what the function should do. along with a return keyword  to specify the output returned by the function. There is no curly brace that signifies the beginning and end of the function.
+
+uses *def* keyword to create a function, followed by function name, has arguments or parameters.
+called
+
+e.g
+
+def print_first_function():
+  print('My first function!')
+
+**Return a value**
+
+uses the return keyword to return a single variable. can also return multiple values.
 
 # BASIC DATA TYPES
 
@@ -350,6 +363,11 @@ for fruit in fruits:
 * .index() - to find an index of a specific element.
 
 * .count() - to count duplicates values in the list[].
+
+
+# List Comprehensions
+
+
 
 
 # Sets{}
