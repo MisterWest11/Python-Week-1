@@ -367,7 +367,13 @@ for fruit in fruits:
 
 # List Comprehensions
 
+a way to create a new list with less syntax.
 
+when creating a list comprehension, you enter an expression followed by a for loop over a collection, followed by conditionals.
+
+general syntax:
+
+[exp for val in collection
 
 
 # Sets{}
