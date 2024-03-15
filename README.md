@@ -155,6 +155,23 @@ continue
 
 print(number, 'squared is', number**2)
 
+**For Loop**
+
+A for loop is used to iterate over a sequence (list[], tuple(), set{}, dictionary{:} or a string).
+
+uses *for* keyword.
+
+uses *break* keyword to jump out the for loop or stop the loop.
+
+uses *continue* to stop the current iteration loop and continue with the next.
+
+**Range() Function**
+
+simplest way to iterate through a list of numbers. also makes use of *startIndex* and *stopIndex*.
+
+**Else Block**
+executes when items in the list are over.
+
 # FUNCTIONS
 
 Functions can be defined by 'def' keyword, followed by the function name and arguments in parentheses, then colon ':'. inside the body of the function should be the code that defines what the function should do. along with a return keyword  to specify the output returned by the function. There is no curly brace that signifies the beginning and end of the function.
