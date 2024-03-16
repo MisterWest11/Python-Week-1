@@ -155,7 +155,7 @@ continue
 
 print(number, 'squared is', number**2)
 
-**For Loop**
+# For Loop
 
 A for loop is used to iterate over a sequence (list[], tuple(), set{}, dictionary{:} or a string).
 
@@ -348,21 +348,8 @@ for fruit in fruits:
 
 **Methods used in a list[]**
 
-* .append() - to add an element at the end of the list[].
 
-* .romove() - used to remove an element in the list[].
-
-* .insert() - to insert an element in the list[] at a given index.
-
-* .sort() - to sort elements in the list[] in alphabetical order.
-
-* .reverse() - reverses the elements in the list[] in the order the list[] was defined in.
-
-* .clear() - clears all the elements of the list[].
-
-* .index() - to find an index of a specific element.
-
-* .count() - to count duplicates values in the list[].
+![image](https://github.com/MisterWest11/Python-Week-1/assets/152319557/06b12e64-8599-463b-a3ac-826632abf694)
 
 
 # List Comprehensions
@@ -373,7 +360,15 @@ when creating a list comprehension, you enter an expression followed by a for lo
 
 general syntax:
 
-[exp for val in collection
+[exp for val in collection]
+
+e.g lets have a list of number, create a list comprehension that has the square of a list of numbers.
+
+numbers = [1,2,3,4,5,6,7,8,9,10,11,12]
+
+newList = [num * num *for* num *in* numbers]
+
+print(newList)
 
 
 # Sets{}
@@ -384,11 +379,15 @@ make use of in/ not in operator to find elements that could be in the list.
 
 **Methods used in Sets{}**
 
-* .add() - to add elements in the Set{}.
 
-* .remove() - to remove elements in the Set{}
 
-* .pop() - removes an element at random.
+![image](https://github.com/MisterWest11/Python-Week-1/assets/152319557/a4698918-3149-466d-9100-c7422904e7f0)
+
+![image](https://github.com/MisterWest11/Python-Week-1/assets/152319557/9fb2a614-42fa-482b-928f-fc2492860d36)
+
+# Set Comprehensions
+
+![image](https://github.com/MisterWest11/Python-Week-1/assets/152319557/d9065eef-847b-403b-9cee-88dc63a54e5c)
 
 
 # Tuples()
@@ -396,10 +395,8 @@ make use of in/ not in operator to find elements that could be in the list.
 they are ordered and unchangeable.
 
 **methods used in tuples()**
+![image](https://github.com/MisterWest11/Python-Week-1/assets/152319557/9afd15a6-5ad2-4447-9a1a-55f13720f59d)
 
-* .index()
-
-* .count()
 
 # Dictionary{key:value}
 
@@ -416,15 +413,12 @@ people = {"West": 22,
 
 **methods used in dictionaries{:}**
 
+![image](https://github.com/MisterWest11/Python-Week-1/assets/152319557/a0e6c929-183f-45d0-b5f9-9cdb112437a0)
 
-* copy()
 
-* get()
-  
-* items()
-  
-* keys()
-  
-* pop() - to delete an item
-  
-* values()
+Dictionary Comprehension{:}
+
+does the same way as List comprehension
+
+![image](https://github.com/MisterWest11/Python-Week-1/assets/152319557/6c9727ce-6f8f-44c2-a2df-4f9db1fde3ae)
+
