@@ -1,0 +1,5 @@
+# Functions
+
+They are a handy way to creating blocks of code that you can reuse.
+To define a function, you use the *def* keyword, followed by *function_name*, parentheses then the body of the function.
+
