@@ -42,6 +42,7 @@ use the *lambda* keyword, define parameters needed, use : to separate parameters
 *lambda arguments: expression*
 
 this example below is a lambda function with one parameter
+
 ![image](https://github.com/MisterWest11/Python-Week-1-4/assets/152319557/3be049fc-a746-4276-a289-7293c3e1190a)
 
 
