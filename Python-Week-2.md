@@ -39,4 +39,13 @@ They are anonymous, meaning there is no need to name them.
 
 use the *lambda* keyword, define parameters needed, use : to separate parameters from the expression
 
-*lambda arguments: expression
+*lambda arguments: expression*
+
+this example below is a lambda function with one parameter
+![image](https://github.com/MisterWest11/Python-Week-1-4/assets/152319557/3be049fc-a746-4276-a289-7293c3e1190a)
+
+
+multiple parameter 
+![image](https://github.com/MisterWest11/Python-Week-1-4/assets/152319557/d48dcd9a-9a96-41b3-b0ac-bfecd3ea5676)
+
+
