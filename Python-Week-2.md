@@ -23,3 +23,20 @@ in Python, there are two types of variables, Local variables which are defined i
 
 **Locals()**
 
+Variables defined within the scope of a function, are only accessible to the function and not anywhere outside the function.
+
+**Global**
+
+Variables defined in the main method, not within a function. used anywhere throughout the program.
+
+**Lambda Functions**
+
+A Python function that has only one expression and can't have multiple lines. It is meant to make it easier to create some small logic in one line instead of a whole function.
+
+They are anonymous, meaning there is no need to name them.
+
+*Basic Syntax*
+
+use the *lambda* keyword, define parameters needed, use : to separate parameters from the expression
+
+*lambda arguments: expression
