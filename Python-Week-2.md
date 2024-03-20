@@ -50,3 +50,11 @@ multiple parameter
 ![image](https://github.com/MisterWest11/Python-Week-1-4/assets/152319557/d48dcd9a-9a96-41b3-b0ac-bfecd3ea5676)
 
 
+# Classes & Objects
+
+A class in a blueprint or real world representation of an object.
+It contains attributes and method the class can possess. 
+
+**Instance Attributes**
+
+Instance attributes are properties found in a class. 
