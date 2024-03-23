@@ -47,6 +47,7 @@ this example below is a lambda function with one parameter
 
 
 multiple parameter 
+
 ![image](https://github.com/MisterWest11/Python-Week-1-4/assets/152319557/d48dcd9a-9a96-41b3-b0ac-bfecd3ea5676)
 
 
@@ -55,6 +56,22 @@ multiple parameter
 A class in a blueprint or real world representation of an object.
 It contains attributes and method the class can possess. 
 
-**Instance Attributes**
+We have instance variables that contain data that is unique to each instance(object).
+
+when creating a Class, we get a default function known as an *__init__()* function (constructor) which initializes an instance upon creation.
+
+**Class Attributes and Methods**
 
 Instance attributes are properties found in a class. 
+
+Instance variables: attributes attached to an instance of a class. We define instance variables in the constructor ( the __init__() method of a class).
+
+Class Variables: a variable that is declared inside a class.
+
+Instance Methods: Used to access or modify the instance attributes.
+
+Class Methods: Used to access or modify the class state.
+
+Static Methods: a method that performs a task in isolation. They don't have access to class attributes.
+
+
