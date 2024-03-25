@@ -51,6 +51,20 @@ multiple parameter
 ![image](https://github.com/MisterWest11/Python-Week-1-4/assets/152319557/d48dcd9a-9a96-41b3-b0ac-bfecd3ea5676)
 
 
+**Map function**
+
+- applies a function to each item in an iterable (list, tuple, set or dictionary).
+
+map(function, iterable)
+
+
+**Filter() function**
+
+Creates a collection of elements from an iterable for which a function returns
+
+![image](https://github.com/MisterWest11/Python-Week-1-4/assets/152319557/ac01a729-70e1-4493-a8d5-57d27f1e0638)
+
+
 # Classes & Objects
 
 A class in a blueprint or real world representation of an object.
