@@ -98,3 +98,10 @@ Static Methods: a method that performs a task in isolation. They don't have acce
 
 ![image](https://github.com/MisterWest11/Python-Week-1-4/assets/152319557/e204c849-47a9-495e-895e-daf066585e2e)
 
+
+
+# Exceptions
+
+An error event that interrupts the flow of the program.
+
+use a try-except method. in the *try* block, we have the code that is more likely to create an error in a program. in the *except* block, we handle our error in a smarter way, to help counter an interruption in our program flow.
