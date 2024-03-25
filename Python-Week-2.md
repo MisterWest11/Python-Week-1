@@ -16,19 +16,6 @@ an argument is the literal value passed to a function, when calling it for execu
 
 ![image](https://github.com/MisterWest11/Python-Week-1-4/assets/152319557/b4e6bbf9-8766-4a5c-9b0b-80ae0ca6f23f)
 
-
-# Scope
-
-in Python, there are two types of variables, Local variables which are defined inside the function. Global variables are defined outside the function in the main block.
-
-**Locals()**
-
-Variables defined within the scope of a function, are only accessible to the function and not anywhere outside the function.
-
-**Global**
-
-Variables defined in the main method, not within a function. used anywhere throughout the program.
-
 **Lambda Functions**
 
 A Python function that has only one expression and can't have multiple lines. It is meant to make it easier to create some small logic in one line instead of a whole function.
@@ -63,6 +50,19 @@ map(function, iterable)
 Creates a collection of elements from an iterable for which a function returns
 
 ![image](https://github.com/MisterWest11/Python-Week-1-4/assets/152319557/ac01a729-70e1-4493-a8d5-57d27f1e0638)
+
+
+# Scope
+
+in Python, there are two types of variables, Local variables which are defined inside the function. Global variables are defined outside the function in the main block.
+
+**Locals()**
+
+Variables defined within the scope of a function, are only accessible to the function and not anywhere outside the function.
+
+**Global**
+
+Variables defined in the main method, not within a function. used anywhere throughout the program.
 
 
 # Classes & Objects
