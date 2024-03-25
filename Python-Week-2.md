@@ -30,7 +30,8 @@ use the *lambda* keyword, define parameters needed, use : to separate parameters
 
 this example below is a lambda function with one parameter
 
-![image](https://github.com/MisterWest11/Python-Week-1-4/assets/152319557/3be049fc-a746-4276-a289-7293c3e1190a)
+![image](https://github.com/MisterWest11/Python-Week-1-4/assets/152319557/3bc76eff-6715-4192-b5fc-17c5b9f2730d)
+
 
 
 multiple parameter 
@@ -84,8 +85,16 @@ Class Variables: a variable that is declared inside a class.
 
 Instance Methods: Used to access or modify the instance attributes.
 
+![image](https://github.com/MisterWest11/Python-Week-1-4/assets/152319557/4d94b5d7-91e8-4207-b15b-8a1e5637a6d3)
+
+
+# Inheritance
+
+When a subclass inherits attributes and functionalities of a parent class.
+
 Class Methods: Used to access or modify the class state.
 
 Static Methods: a method that performs a task in isolation. They don't have access to class attributes.
 
+![image](https://github.com/MisterWest11/Python-Week-1-4/assets/152319557/e204c849-47a9-495e-895e-daf066585e2e)
 
