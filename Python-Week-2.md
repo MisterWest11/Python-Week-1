@@ -108,3 +108,5 @@ use a try-except method. in the *try* block, we have the code that is more likel
 
 
 ![image](https://github.com/MisterWest11/Python-Week-1-4/assets/152319557/bd7baf24-e6b9-4c9c-9f04-f274b9abcf8a)
+
+We also have the *finally* block that executes no matter an exception was found or not.
