@@ -138,3 +138,15 @@ the are four different methods for opening a file:
 To open a file for reading:  
 
 f = open("demofile.txt")
+
+Read Only Parts Of The File
+
+read() method returns the whole text, but you can also specify how many characters to return.
+
+**Write to an existing file**
+
+* "a" - Append - will append to the end of the file.
+
+* "w" - Write - will overwrite any existing content.
+
+  ![image](https://github.com/MisterWest11/Python-Week-1-4/assets/152319557/81db2da0-ab43-43cb-85e9-3af5538f7e6c)
