@@ -127,3 +127,11 @@ The key function for working with files in Python is using the open() function. 
 the are four different methods for opening a file:
 
 * "r" - Read - Opens a file for reading, error if the file does not exist.
+
+* "a" - Append - Opens a file for appending, creates the file if it does not exist.
+
+* "w" - Write - Opens a file for writing, creates a file if it does not exists
+
+* "x" - Create - creates a specified file, returns error if it does not exist.
+
+
