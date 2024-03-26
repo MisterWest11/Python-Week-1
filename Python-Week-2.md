@@ -118,3 +118,12 @@ A Thread is a flow of execution. basically a seperate of instructions that run o
 
 a process is an instance of a program. it has memory set aside for its code and data.
 a process can get multiple threads and execute code at the same time in parallel.
+
+
+# File Handling
+
+The key function for working with files in Python is using the open() function. The open() function takes two paramteres: *filename & mode*
+
+the are four different methods for opening a file:
+
+* "r" - Read - Opens a file for reading, error if the file does not exist.
