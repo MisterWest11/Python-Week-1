@@ -110,3 +110,11 @@ use a try-except method. in the *try* block, we have the code that is more likel
 ![image](https://github.com/MisterWest11/Python-Week-1-4/assets/152319557/bd7baf24-e6b9-4c9c-9f04-f274b9abcf8a)
 
 We also have the *finally* block that executes no matter an exception was found or not.
+
+
+# Fundamentals of Threads and Processes
+
+A Thread is a flow of execution. basically a seperate of instructions that run on different processors in the computer only 1 ata time in python.
+
+a process is an instance of a program. it has memory set aside for its code and data.
+a process can get multiple threads and execute code at the same time in parallel.
