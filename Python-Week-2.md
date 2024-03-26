@@ -135,7 +135,7 @@ the are four different methods for opening a file:
 * "x" - Create - creates a specified file, returns error if it does not exist.
 
 
-To open a file for reading:  
+**To open a file for reading:**
 
 f = open("demofile.txt")
 
@@ -150,3 +150,20 @@ read() method returns the whole text, but you can also specify how many characte
 * "w" - Write - will overwrite any existing content.
 
   ![image](https://github.com/MisterWest11/Python-Week-1-4/assets/152319557/81db2da0-ab43-43cb-85e9-3af5538f7e6c)
+
+
+**Create a new File**
+
+* "x" - Create - will create a new file, return error if it does not exist.
+
+* "a" - Append - will create a file if the specified file does not exist.
+
+* "w" - Write - will create a file if the specified file does not exist.
+
+**Delete a file**
+
+To delete a fil, you must import the OS module and run its os.remove() function.
+
+to check if a file exists:
+
+![image](https://github.com/MisterWest11/Python-Week-1-4/assets/152319557/9233d1db-348f-4cc1-9ee0-43b51ffcb37e)
