@@ -135,3 +135,6 @@ the are four different methods for opening a file:
 * "x" - Create - creates a specified file, returns error if it does not exist.
 
 
+To open a file for reading:  
+
+f = open("demofile.txt")
