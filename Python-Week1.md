@@ -86,6 +86,8 @@ The if statement is one of three main types of control flow in programming and i
 
 **IF STATEMENT**
 
+example
+
 
 general syntax: *if expression: statement*
 
