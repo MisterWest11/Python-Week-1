@@ -124,7 +124,7 @@ a process can get multiple threads and execute code at the same time in parallel
 
 The key function for working with files in Python is using the open() function. The open() function takes two paramteres: *filename & mode*
 
-the are four different methods for opening a file:
+there are four different methods for opening a file:
 
 * "r" - Read - Opens a file for reading, error if the file does not exist.
 
@@ -137,7 +137,7 @@ the are four different methods for opening a file:
 
 **To open a file for reading:**
 
-f = open("demofile.txt")
+   f = open("demofile.txt")
 
 Read Only Parts Of The File
 
@@ -167,3 +167,35 @@ To delete a fil, you must import the OS module and run its os.remove() function.
 to check if a file exists:
 
 ![image](https://github.com/MisterWest11/Python-Week-1-4/assets/152319557/9233d1db-348f-4cc1-9ee0-43b51ffcb37e)
+
+# JSON Files
+
+Python has a built-in package called json, used to work with *json* data.
+
+  **import json**
+
+*Convert from JSON to Python*
+
+you can parse it using the json.loads() method, the result is a Python Dictionary.
+
+![img.png](img.png)
+
+if you want to convert from Python to JSON
+
+if you have a Python object, you can convert it to a JSON string by using the json.dumps() method.
+
+![img_1.png](img_1.png)
+
+You can convert Python objects of the following types into JSON strings:
+
+* dict
+* list
+* tuple
+* string
+* int
+* float
+* True
+* False
+* None
+
+
