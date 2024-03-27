@@ -86,6 +86,7 @@ The if statement is one of three main types of control flow in programming and i
 
 **IF STATEMENT**
 
+
 general syntax: *if expression: statement*
 
 the expression  contains logic that return a boolean(true/false). An *if statement* is executed if the condition is true.
