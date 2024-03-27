@@ -184,7 +184,7 @@ if you want to convert from Python to JSON
 
 if you have a Python object, you can convert it to a JSON string by using the json.dumps() method.
 
-![img_1.png](img_1.png)
+![img_3.png](img_3.png)
 
 You can convert Python objects of the following types into JSON strings:
 
