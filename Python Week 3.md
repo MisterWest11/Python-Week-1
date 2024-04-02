@@ -82,3 +82,8 @@ Start the Event Loop: Use *mainloop()* to start the event loop, which keeps the 
 
 
 ![image](https://github.com/MisterWest11/Python-Week-1-4/assets/152319557/91fb6df6-f6e0-4f15-9ff9-65da07ba0573)
+
+
+to add window on computer screen, *.mainloop()*
+
+to change/edit size of window, *.geometry()*
