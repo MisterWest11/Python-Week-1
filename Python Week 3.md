@@ -72,13 +72,13 @@ Building a Simple GUI with Tkinter:
 
 Import Tkinter: Begin by importing the tkinter module.
 
-Create the Main Window: Use Tk() to create the main window object.
+Create the Main Window: Use *Tk()* to create the main window object.
 
-Add Widgets: Use methods like button(), label(), and entry() to add widgets to the window. Configure them with properties like text and size.
+Add Widgets: Use methods like *button()*, *label()*, and *entry()* to add widgets to the window. Configure them with properties like text and size.
 
 Define Event Handlers: Write Python functions to define what happens when the user interacts with a widget (e.g., clicking a button).
 
-Start the Event Loop: Use mainloop() to start the event loop, which keeps the GUI running and responsive to user input.
+Start the Event Loop: Use *mainloop()* to start the event loop, which keeps the GUI running and responsive to user input.
 
 
 ![image](https://github.com/MisterWest11/Python-Week-1-4/assets/152319557/91fb6df6-f6e0-4f15-9ff9-65da07ba0573)
