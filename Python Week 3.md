@@ -44,3 +44,38 @@ They focus on maintainability, reliability, and usability. e.g. The application 
 
 # Architecture
 
+
+
+# GUI Design Planning
+
+In this chapter, we will focus on creating a User Interface using Python's TKinter module.
+
+A GUI is a program with a visual interface that uses elements like buttons, menus, and windows for users to interact with.
+
+Think of it as a user-friendly way to control your program instead of typing commands.
+Creating GUIs in Python:
+
+Python offers several libraries for building GUIs, with Tkinter being a popular choice for beginners.
+
+Tkinter comes built-in with Python, so no additional installation is required.
+Basic GUI Components:
+
+**Main Window:** The primary container that holds all other GUI elements.
+
+**Widgets:** Interactive elements like buttons, labels, text boxes, and menus. Each widget has specific functionalities.
+
+**Events:** User actions like clicking a button or entering text generate events that your program can respond to.
+
+**Event Loop:** A never-ending loop that listens for events from the user and triggers the corresponding code.
+
+Building a Simple GUI with Tkinter:
+
+Import Tkinter: Begin by importing the tkinter module.
+
+Create the Main Window: Use Tk() to create the main window object.
+
+Add Widgets: Use methods like button(), label(), and entry() to add widgets to the window. Configure them with properties like text and size.
+
+Define Event Handlers: Write Python functions to define what happens when the user interacts with a widget (e.g., clicking a button).
+
+Start the Event Loop: Use mainloop() to start the event loop, which keeps the GUI running and responsive to user input.
